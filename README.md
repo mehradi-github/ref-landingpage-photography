@@ -9,7 +9,7 @@ The LandingPage Photography is built with CSS3 (Sass) and Html5.
 ## Installing Requirements
  Material Design for Bootstrap v5 via [mdbootstrap](https://mdbootstrap.com/docs/react/getting-started/installation/). 
 ```bash
-# Redux + TypeScript template
+# TypeScript template
 npx create-react-app ref-landingpage-photography --template typescript
 
 ```
