@@ -15,6 +15,10 @@ Shared browser compatibility config for popular JavaScript tools like Autoprefix
 ```bash
 # TypeScript template
 npx create-react-app ref-landingpage-photography --template typescript
+```
 
+[Adding a Sass Stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet/) : you can rename src/App.css to src/App.scss and update src/App.js to import src/App.scss. This file and any other file will be automatically compiled if imported with the extension .scss or .sass.
+```bash
+ npm install sass
 ```
 
