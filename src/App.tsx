@@ -31,7 +31,7 @@ function App() {
       </header>
       <main></main>
       <footer>
-        <h4> Lorem, ipsum. &copy 2023</h4>
+        <h4> Lorem, ipsum. &copy; 2023</h4>
         <ul>
           <li>
             <a href="#">
