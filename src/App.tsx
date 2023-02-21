@@ -1,5 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
+import youtube from "./assets/img/youtube-symbol 1.svg";
+import instagram from "./assets/img/instagram 1.svg";
+import twitter from "./assets/img/twitter 1.svg";
 import "./App.scss";
 
 function App() {
@@ -27,6 +29,27 @@ function App() {
           <span className="line3"></span>
         </div>
       </header>
+      <main></main>
+      <footer>
+        <h4> Lorem, ipsum. &copy 2023</h4>
+        <ul>
+          <li>
+            <a href="#">
+              <img src={youtube} alt="youtube" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={instagram} alt="instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={twitter} alt="twitter" />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
