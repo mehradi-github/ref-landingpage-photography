@@ -9,15 +9,34 @@ The LandingPage Photography is built with CSS3 (Sass) and Html5.
 ## Emmet — the essential toolkit for web-developers
 [Emmet](https://github.com/emmetio/emmet) is a plugin for many popular text editors which greatly improves HTML & CSS workflow:
 ```
-ul#nav>li.item$*4>a{Item $}
+  div.class1.class2>ul#nav>li.item$$$@3*5>a{Item $}+p{lorem4}^^input[value="Hello world!"]
 ```
 ```html
-<ul id="nav">
-    <li class="item1"><a href="">Item 1</a></li>
-    <li class="item2"><a href="">Item 2</a></li>
-    <li class="item3"><a href="">Item 3</a></li>
-    <li class="item4"><a href="">Item 4</a></li>
-</ul>
+  <div className="class1 class2">
+        <ul id="nav">
+          <li className="item003">
+            <a href="">Item 1</a>
+            <p>lorem4</p>
+          </li>
+          <li className="item004">
+            <a href="">Item 2</a>
+            <p>lorem4</p>
+          </li>
+          <li className="item005">
+            <a href="">Item 3</a>
+            <p>lorem4</p>
+          </li>
+          <li className="item006">
+            <a href="">Item 4</a>
+            <p>lorem4</p>
+          </li>
+          <li className="item007">
+            <a href="">Item 5</a>
+            <p>lorem4</p>
+          </li>
+        </ul>
+        <input type="text" value="Hello world!" />
+      </div>
 ```
 
 ## Browserslist
