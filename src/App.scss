@@ -11,6 +11,28 @@ html {
   scroll-behavior: smooth;
 }
 
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: "Ruhl", sans-serif;
+  animation: opening 1s ease-in-out forwards;
+}
+h1 {
+  font-family: "Vibes", sans-serif;
+}
+
 .main-head {
   position: relative;
   box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
@@ -32,4 +54,14 @@ nav {
   display: flex;
   justify-content: space-around;
   flex: 1 1 20rem;
+}
+
+// Animations
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
