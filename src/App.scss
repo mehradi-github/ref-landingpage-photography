@@ -76,6 +76,7 @@ footer {
 }
 
 .burger {
+  display: none;
   position: relative;
   display: block;
   cursor: pointer;
@@ -85,6 +86,28 @@ footer {
     margin: 0.5rem 0;
     display: block;
     transition: all 0.5s ease;
+  }
+}
+
+@media (max-width: 842px) {
+  .nav-links {
+    background-color: $background-color;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s ease;
+    a {
+      color: white;
+      font-size: $header3;
+      text-decoration: underline;
+    }
+  }
+  .nav-open {
+    transform: translateX(-100%);
   }
 }
 
