@@ -77,19 +77,21 @@ footer {
 
 .burger {
   display: none;
-  position: relative;
-  display: block;
-  cursor: pointer;
-  span {
-    padding: 0.2rem 2rem;
-    background-color: $gray-text;
-    margin: 0.5rem 0;
-    display: block;
-    transition: all 0.5s ease;
-  }
 }
 
 @media (max-width: 842px) {
+  .burger {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    span {
+      padding: 0.2rem 2rem;
+      background-color: $gray-text;
+      margin: 0.5rem 0;
+      display: block;
+      transition: all 0.5s ease;
+    }
+  }
   .nav-links {
     background-color: $background-color;
     width: 100%;
@@ -109,8 +111,20 @@ footer {
   .nav-open {
     transform: translateX(-100%);
   }
+  .toggle {
+    .line1 {
+      transform: rotateZ(45deg) translateY(300%);
+      background-color: white;
+    }
+    .line2 {
+      opacity: 0;
+    }
+    .line3 {
+      transform: rotateZ(-45deg) translateY(-300%);
+      background-color: white;
+    }
+  }
 }
-
 // Animations
 @keyframes opening {
   from {
