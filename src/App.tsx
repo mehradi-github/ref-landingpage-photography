@@ -22,12 +22,12 @@ function App() {
               <a href="#contact">Contact</a>
             </li>
           </ul>
+          <div className="burger">
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
         </nav>
-        <div className="burger">
-          <span className="line1"></span>
-          <span className="line2"></span>
-          <span className="line3"></span>
-        </div>
       </header>
       <main></main>
       <footer>
