@@ -6,6 +6,9 @@ import "./App.scss";
 
 function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    setIsOpenMenu((current) => !current);
+  };
   return (
     <div className="App">
       {/* header.main-head>nav>h1#logo{Joe Teailor}+ul>li*3>a[href=""]^^^div.burger>span.line$*3 */}
@@ -14,20 +17,24 @@ function App() {
           <h1 id="logo">Lorem, ipsum.</h1>
           <ul className={isOpenMenu ? "nav-links nav-open" : "nav-links"}>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={handleClick}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#work">Work</a>
+              <a href="#work" onClick={handleClick}>
+                Work
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={handleClick}>
+                Contact
+              </a>
             </li>
           </ul>
           <div
             className={isOpenMenu ? " burger toggle" : "burger"}
-            onClick={() => {
-              setIsOpenMenu(!isOpenMenu);
-            }}
+            onClick={handleClick}
           >
             <span className="line1"></span>
             <span className="line2"></span>
