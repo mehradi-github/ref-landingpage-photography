@@ -2,10 +2,28 @@
 # The LandingPage Photography
 The LandingPage Photography is built with CSS3 (Sass) and Html5.
 - [The LandingPage Photography](#the-landingpage-photography)
+  - [Deploy React to Github Pages](#deploy-react-to-github-pages)
   - [Emmet — the essential toolkit for web-developers](#emmet--the-essential-toolkit-for-web-developers)
   - [Browserslist](#browserslist)
   - [Installing Requirements](#installing-requirements)
 
+## Deploy React to Github Pages
+```bash
+npm i -D gh-pages
+```
+```json
+// package.json
+{
+  "homepage":"https://username.github.io/repo-name",
+  "scripts": {
+      "predeploy":"npm run build",
+      "deploy":"gh-pages -d build"
+    }
+}
+```
+```bash
+npm run deploy
+```
 ## Emmet — the essential toolkit for web-developers
 [Emmet](https://github.com/emmetio/emmet) is a plugin for many popular text editors which greatly improves HTML & CSS workflow:
 ```
