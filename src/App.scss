@@ -175,6 +175,15 @@ footer {
       background-color: white;
     }
   }
+
+  .hero {
+    width: 100%;
+    .hero-introduction {
+      p {
+        padding: 5rem 3rem;
+      }
+    }
+  }
 }
 // Animations
 @keyframes opening {

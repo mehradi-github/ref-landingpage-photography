@@ -55,9 +55,7 @@ function App() {
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              corporis laborum nihil! Assumenda repellat tempora, explicabo
-              accusamus debitis corrupti ab maiores modi minima, aliquam,
-              eligendi expedita deleniti a velit commodi adipisci non.
+              corporis laborum nihil!
             </p>
             <a href="#gallery">Gallery</a>
           </div>
