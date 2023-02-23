@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba7e66a6.css",
-    "main.js": "/static/js/main.dcc2c0eb.js",
-    "static/js/787.5fc62873.chunk.js": "/static/js/787.5fc62873.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.ba7e66a6.css.map": "/static/css/main.ba7e66a6.css.map",
-    "main.dcc2c0eb.js.map": "/static/js/main.dcc2c0eb.js.map",
-    "787.5fc62873.chunk.js.map": "/static/js/787.5fc62873.chunk.js.map"
+    "main.css": "/ref-landingpage-photography/static/css/main.e0ebd189.css",
+    "main.js": "/ref-landingpage-photography/static/js/main.7211dd4a.js",
+    "static/js/787.5fc62873.chunk.js": "/ref-landingpage-photography/static/js/787.5fc62873.chunk.js",
+    "static/media/elena-joy.png": "/ref-landingpage-photography/static/media/elena-joy.09437ea5ed0cb22652fc.png",
+    "static/media/plant1.png": "/ref-landingpage-photography/static/media/plant1.bc0a993c7a8eec410d0b.png",
+    "static/media/plant2.png": "/ref-landingpage-photography/static/media/plant2.28bf6ddbaa5e56853ca1.png",
+    "static/media/FrankRuhlLibre-Medium.ttf": "/ref-landingpage-photography/static/media/FrankRuhlLibre-Medium.c2c192d2a9f307283d56.ttf",
+    "static/media/FrankRuhlLibre-Regular.ttf": "/ref-landingpage-photography/static/media/FrankRuhlLibre-Regular.43412bd41a1380819c72.ttf",
+    "static/media/GreatVibes-Regular.ttf": "/ref-landingpage-photography/static/media/GreatVibes-Regular.e45e6e2ddb17d288adcb.ttf",
+    "static/media/instagram 1.svg": "/ref-landingpage-photography/static/media/instagram 1.6864aae09c9c3801e82501b1f3d4a727.svg",
+    "static/media/twitter 1.svg": "/ref-landingpage-photography/static/media/twitter 1.8e0f76467428d03ab0195083a01f32d8.svg",
+    "static/media/youtube-symbol 1.svg": "/ref-landingpage-photography/static/media/youtube-symbol 1.e706f32a5476d417157df01686d678ae.svg",
+    "index.html": "/ref-landingpage-photography/index.html",
+    "main.e0ebd189.css.map": "/ref-landingpage-photography/static/css/main.e0ebd189.css.map",
+    "main.7211dd4a.js.map": "/ref-landingpage-photography/static/js/main.7211dd4a.js.map",
+    "787.5fc62873.chunk.js.map": "/ref-landingpage-photography/static/js/787.5fc62873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba7e66a6.css",
-    "static/js/main.dcc2c0eb.js"
+    "static/css/main.e0ebd189.css",
+    "static/js/main.7211dd4a.js"
   ]
 }
