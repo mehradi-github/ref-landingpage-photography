@@ -3,7 +3,7 @@ import instagram from "./assets/img/instagram 1.svg";
 import twitter from "./assets/img/twitter 1.svg";
 import "./App.scss";
 import youtube from "./assets/img/youtube-symbol 1.svg";
-import elenajoy from "./assets/img/elena-joy.png";
+import elena from "./assets/img/elena-joy.png";
 import plant1 from "./assets/img/plant1.png";
 import plant2 from "./assets/img/plant2.png";
 
@@ -62,7 +62,7 @@ function App() {
             <a href="#gallery">Gallery</a>
           </div>
           <div className="hero-images">
-            <img className="hero-elena" src={elenajoy} alt="picture of lorem" />
+            <img className="hero-elena" src={elena} alt="" />
             <img src={plant1} alt="" className="plant1 plant" />
             <img src={plant2} alt="" className="plant2 plant" />
           </div>
