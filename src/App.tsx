@@ -14,7 +14,6 @@ function App() {
   };
   return (
     <div className="App">
-      {/* header.main-head>nav>h1#logo{Joe Teailor}+ul>li*3>a[href=""]^^^div.burger>span.line$*3 */}
       <header className="main-head">
         <nav>
           <h1 id="logo">Lorem, ipsum.</h1>
@@ -70,17 +69,17 @@ function App() {
         <h4> Lorem, ipsum. &copy; 2023</h4>
         <ul>
           <li>
-            <a href="#">
+            <a href="#youtube">
               <img src={youtube} alt="youtube" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#instagram">
               <img src={instagram} alt="instagram" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#twitter">
               <img src={twitter} alt="twitter" />
             </a>
           </li>

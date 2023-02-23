@@ -8,6 +8,7 @@ The LandingPage Photography is built with CSS3 (Sass) and Html5.
   - [Installing Requirements](#installing-requirements)
 
 ## Deploy React to Github Pages
+
 ```bash
 npm i -D gh-pages
 ```
