@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/ref-landingpage-photography/static/css/main.9260324d.css",
-    "main.js": "/ref-landingpage-photography/static/js/main.6cd4c8ca.js",
+    "main.css": "/ref-landingpage-photography/static/css/main.e5c5b67e.css",
+    "main.js": "/ref-landingpage-photography/static/js/main.b3f49e80.js",
     "static/js/787.5fc62873.chunk.js": "/ref-landingpage-photography/static/js/787.5fc62873.chunk.js",
+    "static/media/about-image.png": "/ref-landingpage-photography/static/media/about-image.99321e0011b71b541213.png",
     "static/media/elena-joy.png": "/ref-landingpage-photography/static/media/elena-joy.09437ea5ed0cb22652fc.png",
     "static/media/plant1.png": "/ref-landingpage-photography/static/media/plant1.bc0a993c7a8eec410d0b.png",
     "static/media/plant2.png": "/ref-landingpage-photography/static/media/plant2.28bf6ddbaa5e56853ca1.png",
@@ -13,12 +14,12 @@
     "static/media/twitter 1.svg": "/ref-landingpage-photography/static/media/twitter 1.8e0f76467428d03ab0195083a01f32d8.svg",
     "static/media/youtube-symbol 1.svg": "/ref-landingpage-photography/static/media/youtube-symbol 1.e706f32a5476d417157df01686d678ae.svg",
     "index.html": "/ref-landingpage-photography/index.html",
-    "main.9260324d.css.map": "/ref-landingpage-photography/static/css/main.9260324d.css.map",
-    "main.6cd4c8ca.js.map": "/ref-landingpage-photography/static/js/main.6cd4c8ca.js.map",
+    "main.e5c5b67e.css.map": "/ref-landingpage-photography/static/css/main.e5c5b67e.css.map",
+    "main.b3f49e80.js.map": "/ref-landingpage-photography/static/js/main.b3f49e80.js.map",
     "787.5fc62873.chunk.js.map": "/ref-landingpage-photography/static/js/787.5fc62873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9260324d.css",
-    "static/js/main.6cd4c8ca.js"
+    "static/css/main.e5c5b67e.css",
+    "static/js/main.b3f49e80.js"
   ]
 }
