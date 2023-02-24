@@ -6,6 +6,7 @@ import youtube from "./assets/img/youtube-symbol 1.svg";
 import elena from "./assets/img/elena-joy.png";
 import plant1 from "./assets/img/plant1.png";
 import plant2 from "./assets/img/plant2.png";
+import aboutimage from "./assets/img/about-image.png";
 
 function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -62,6 +63,40 @@ function App() {
             <img className="hero-elena" src={elena} alt="" />
             <img src={plant1} alt="" className="plant1 plant" />
             <img src={plant2} alt="" className="plant2 plant" />
+          </div>
+        </section>
+
+        <section className="about" id="about">
+          <div className="about-image">
+            <h5>MINIMAL</h5>
+            <img src={aboutimage} alt="portrait-picture" />
+          </div>
+          <div className="about-text flex" id="work">
+            <h2>Lorem, ipsum.</h2>
+            <div className="about-life">
+              <h3>My Life</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptas, maxime reprehenderit. Assumenda necessitatibus id
+                consectetur asperiores harum dolore nihil fuga?
+              </p>
+            </div>
+            <div className="about-work">
+              <h3>My Work</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptas, maxime reprehenderit. Assumenda necessitatibus id
+                consectetur asperiores harum dolore nihil fuga?
+              </p>
+            </div>
+            <div className="about-contact">
+              <h3>Get in touch</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptas, maxime reprehenderit. Assumenda necessitatibus id
+                consectetur asperiores harum dolore nihil fuga?
+              </p>
+            </div>
           </div>
         </section>
       </main>
