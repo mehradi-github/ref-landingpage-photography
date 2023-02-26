@@ -24,6 +24,9 @@ npm i -D gh-pages
 ```
 ```bash
 npm run deploy
+# local
+serve -h
+serve -s build -l 4000
 ```
 ## Emmet — the essential toolkit for web-developers
 [Emmet](https://github.com/emmetio/emmet) is a plugin for many popular text editors which greatly improves HTML & CSS workflow:
